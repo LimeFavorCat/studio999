@@ -22,10 +22,10 @@ interface Variant {
 const characters: Character[] = [
   {
     id: 1,
-    name: "Red knight",
-    korean: "빨머기",
+    name: "Red Hair Knight",
+    korean: "알테아 로즈벨",
     emoji: "⚔️",
-    desc: "설명",
+    desc: "19세 / 여 / 지구 출신 방랑자",
     mainImage: "https://999studio-web-image.s3.us-east-1.amazonaws.com/red_00.png",
     variants: [
       { id: 11, label: "나이트", image: "https://999studio-web-image.s3.us-east-1.amazonaws.com/red_11.png" },
