@@ -190,7 +190,7 @@ export default function DemoPage() {
               <button
                 key={char.id}
                 onClick={() => handleCharacterClick(char)}
-                className={`w-full flex items-center gap-4 px-5 py-4 rounded-2xl text-left transition-all hover:bg-blue-50 ${
+                className={`w-full flex items-center gap-4 px-4 py-4 rounded-2xl text-left transition-all hover:bg-blue-50 ${
                   selectedChar.id === char.id
                     ? "bg-blue-600 text-white shadow-md"
                     : "hover:shadow"
